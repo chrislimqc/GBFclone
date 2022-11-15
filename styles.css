@@ -54,13 +54,34 @@ a {
 
 .button {
     color: #FFF;
-    background-color: #5995DA;    /* Blue */
+    background-color: #e70f0f;    /* Blue */
     font-weight: bold;
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     border: 2px solid #5D6063;    /* Dark gray */
     border-radius: 5px;
   
-    width: 200px;
+    width:fit-content;
     margin: 20px auto;
+}
+
+.sidebar {
+    float: left;
+    height: 300px;
+    padding: 30px;
+}
+
+.header {
+    height: 100px;
+    width: 480px;
+    background-color: aqua;
+}
+
+.footer {
+    height: 100px;
+    width: 480px;
+    background-color: blue;
 }
